@@ -1,0 +1,6 @@
+{
+  //"modules":false 禁用babel转化成 CommonJS 模块加载的方式，使用webpack 新增的对原生 ES6 模块加载器的支持
+  //可以实现tree shaking 
+  "presets": [["es2015",{"modules": false}], "stage-0"]
+//  "plugins": ["transform-runtime"]
+}

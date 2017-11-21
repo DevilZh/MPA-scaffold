@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "start": "../../node_modules/.bin/webpack-dev-server -d --config ../../webpack.custom.config.js --progress --colors",
+    "build_dev": "NODE_ENV=dev ../../node_modules/.bin/webpack --config ../../webpack.custom.config.js --progress --colors",
+    "build_prod": "NODE_ENV=production ../../node_modules/.bin/webpack --config ../../webpack.custom.config.js --progress --colors"
+  }
+}
